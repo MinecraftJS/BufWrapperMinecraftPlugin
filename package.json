@@ -1,27 +1,33 @@
 {
-  "name": "template",
+  "name": "@minecraft-js/bufwrapperminecraftplugin",
   "version": "1.0.0",
-  "description": "todo: change",
-  "main": "dist/index.js",
+  "description": "BufWrapper plugin to add all Minecraft required data types",
+  "main": "dist/plugin.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --exit",
+    "doc": "typedoc src/plugin.ts",
     "build": "tsc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MinecraftJS/template.git"
+    "url": "git+https://github.com/MinecraftJS/BufWrapperMinecraftPlugin.git"
   },
   "keywords": [
     "minecraftjs"
   ],
-  "author": "todo: change",
+  "author": "RichardDorian",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MinecraftJS/template/issues"
+    "url": "https://github.com/MinecraftJS/BufWrapperMinecraftPlugin/issues"
   },
-  "homepage": "https://github.com/MinecraftJS/template#readme",
+  "homepage": "https://github.com/MinecraftJS/BufWrapperMinecraftPlugin#readme",
   "devDependencies": {
+    "@minecraft-js/bufwrapper": "^1.4.1",
+    "@types/node": "^18.0.3",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
     "prettier": "^2.6.1",
+    "typedoc": "^0.23.5",
     "typescript": "^4.6.3"
   }
 }
