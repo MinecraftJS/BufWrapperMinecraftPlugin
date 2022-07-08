@@ -4,7 +4,7 @@
   "description": "BufWrapper plugin to add all Minecraft required data types",
   "main": "dist/plugin.js",
   "scripts": {
-    "test": "mocha --exit",
+    "test": "mocha test/**.test.js",
     "doc": "typedoc src/plugin.ts",
     "build": "tsc"
   },
